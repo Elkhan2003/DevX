@@ -1,0 +1,46 @@
+/* ! news detail */
+.news__detail {
+    max-width: 790px;
+}
+
+.news__detail__suptitle {
+    color: #1f9fba;
+    font-size: 31px;
+    font-weight: 550;
+    text-transform: uppercase;
+    margin-bottom: 20px;
+}
+
+.news__detail__author {
+    color: #535248;
+    font-size: 13px;
+}
+
+.news__detail__instruction {
+    font-size: 16px;
+    color: #535248;
+    margin: 20px 0px;
+}
+
+.news__detail__instruction span {
+    font-weight: 700;
+}
+
+.news__detail__link {
+    margin-left: 10px;
+    background-color: blueviolet;
+    border: 2px solid blueviolet;
+    color: white;
+    font-weight: 700;
+    text-decoration: none;
+    padding: 10px;
+    border-radius: 10px;
+    transition: .4s;
+}
+
+.news__detail__link:hover {
+    background-color: white;
+    border: 2px solid blueviolet;
+    color: blueviolet;
+    box-shadow: 0px 1px 15px red;
+}
